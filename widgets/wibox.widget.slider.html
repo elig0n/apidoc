@@ -249,7 +249,7 @@
 
 -- Connect to `property::value` to use the value on change
 widget:connect_signal(&quot;property::value&quot;, function(_, new_value)
-    naughty.notify { title = &quot;Slider changed&quot;, message = new_value }
+    naughty.notify { title = &quot;Slider changed&quot;, message = tostring(new_value) }
 end)
 </pre>
     </ul>
