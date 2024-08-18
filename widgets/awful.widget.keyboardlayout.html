@@ -285,7 +285,7 @@
 <table class="function_list">
     <tr class="summary_row">
       <td class="name" >
-        <a href="#awful.widget.keyboardlayout">awful.widget.keyboardlayout <span class='function_args'> <b>(</b><b>)</b></span></a>
+        <a href="#awful.widget.keyboardlayout">awful.widget.keyboardlayout <span class='function_named_args'><b>{</b>[args]<b>}</b></span></a>
       </td>
       <td class="summary">
         Create a keyboard layout widget.
@@ -559,7 +559,7 @@
     <dl class="function">
     <dt>
     <a class="copy-link js-copy-link" name="awful.widget.keyboardlayout" href="#awful.widget.keyboardlayout">&#128279;</a>
-    <strong>awful.widget.keyboardlayout <span class='function_args'> <b>(</b><b>)</b></span></strong>
+    <strong>awful.widget.keyboardlayout <span class='function_named_args'><b>{</b>[args]<b>}</b></span></strong>
     <span class="baseclass" >
     </span>
     </dt>
@@ -568,6 +568,35 @@
 
 <p> It shows current keyboard layout name in a textbox.
 
+    <h3>Parameters:</h3>
+        <div class="important_box">
+          <b>Note:</b> This constructors uses named parameters calling convention. It
+          means you call it with <code>{}</code> and omit the parantheses. For example,
+          calling this will all default argument would be <code>awful.widget.keyboardlayout{}</code>.
+          This is a Lua shortcut syntax equivalent to <code>awful.widget.keyboardlayout({})</code>.
+          <code>args</code> is only a placeholder name for the "lone table argument"
+          used in named parameters calls.
+        </div>
+    <table class="see_also">
+         <tr class="param_header">
+            <th>Name</th>
+            <th></th>
+            <th>Type(s)</th>
+            <th>Description</th>
+         </tr>
+        <tr>
+           <td><span class="parameter">args</span></td>
+           <td><span class="chips">Optional</span></td>
+           <td><span class="types"><span class="type">table</span></span></td>
+           <td class="see_also_description"> The argument table containing any of the arguments below. </td>
+         </tr>
+         <tr class="see_also_sublist">
+           <td><span class="parameter">country_codes</span></td>
+           <td><span class="chips">Optional</span></td>
+           <td><span class="types"><a class="type" href="https://www.lua.org/manual/5.3/manual.html#6.6">table</a></span></td>
+           <td class="see_also_description"> Array of names of custom keyboard layouts.</td>
+         </tr>
+        </table>
 
     <h3>Returns:</h3>
     <ol>
