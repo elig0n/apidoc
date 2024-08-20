@@ -321,6 +321,28 @@ awful.<span class="function-name">wallpaper</span> {
 }
 </pre>
 
+<p> To maintain the image's aspect ratio while filling the
+ screen, the image can be cropped using <a href="../libraries/gears.surface.html#">gears.surface</a>:</p>
+
+
+
+<p><object class="img-object" data="../images/AUTOGEN_awful_wallpaper_mazimized4.svg" alt="Usage example" type="image/svg+xml"></object></p>
+
+
+
+<pre>
+awful.<span class="function-name">wallpaper</span> {
+    screen = s,
+    widget = {
+         image  = gears.surface.<span class="function-name">crop_surface</span> {
+             surface = gears.surface.<span class="function-name">load_uncached</span>(beautiful.wallpaper),
+             ratio = s.geometry.width/s.geometry.height,
+         },
+         widget = wibox.widget.imagebox,
+     },
+}
+</pre>
+
 <p> Finally, it is also possible to use simpler "branding" in a corner using
  <a href="../libraries/awful.placement.html#">awful.placement</a>:</p>
 
