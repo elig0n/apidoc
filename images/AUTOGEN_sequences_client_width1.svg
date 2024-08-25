@@ -233,7 +233,7 @@
 <clipPath id="clip8">
   <path d="M 18 90 L 36 90 L 36 108 L 18 108 Z M 18 90 "/>
 </clipPath>
-<image id="image16" width="22" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAABmJLR0QA/wD/AP+gvaeTAAAAQUlEQVQ4jWM0NzdnoAwwUah/1AhqG8H4//9/4lVbWFhgMWI0XQw/I1hwSZw4cQKrOGbSwGkE1lSE1dzBERbDxggAF2YLHQjOKHUAAAAASUVORK5CYII="/>
+<image id="image17" width="22" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAABmJLR0QA/wD/AP+gvaeTAAAAQUlEQVQ4jWM0NzdnoAwwUah/1AhqG8H4//9/4lVbWFhgMWI0XQw/I1hwSZw4cQKrOGbSwGkE1lSE1dzBERbDxggAF2YLHQjOKHUAAAAASUVORK5CYII="/>
 <clipPath id="clip9">
   <path d="M 47 111 L 53 111 L 53 138 L 47 138 Z M 47 111 "/>
 </clipPath>
@@ -266,7 +266,7 @@
 <clipPath id="clip17">
   <rect x="0" y="0" width="90" height="13"/>
 </clipPath>
-<g id="surface18" clip-path="url(#clip17)">
+<g id="surface19" clip-path="url(#clip17)">
 <g class="svg_fill" style="fill:currentcolor;fill-opacity:1;">
   <use xlink:href="#glyph2-1" x="0" y="9.901367"/>
   <use xlink:href="#glyph2-2" x="7" y="9.901367"/>
@@ -407,7 +407,7 @@
 <path class="svg_fill" style=" stroke:none;fill-rule:nonzero;fill:currentcolor;fill-opacity:0.5;" d="M 8.5 90 L 9.5 90 L 9.5 108 L 8.5 108 Z M 8.5 90 "/>
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(38.039216%,50.588235%,100%);fill-opacity:0.490196;" d="M 18 90 L 130 90 L 130 108 L 18 108 Z M 18 90 "/>
 <g clip-path="url(#clip8)" clip-rule="nonzero">
-<use xlink:href="#image16" transform="matrix(0.818182,0,0,0.818182,18,90)"/>
+<use xlink:href="#image17" transform="matrix(0.818182,0,0,0.818182,18,90)"/>
 </g>
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(66.666667%,0%,100%);fill-opacity:0.490196;" d="M 36 90 L 65 90 L 65 108 L 36 108 Z M 36 90 "/>
 <g class="svg_fill" style="fill:currentcolor;fill-opacity:1;">
@@ -495,11 +495,11 @@
 <g clip-path="url(#clip16)" clip-rule="nonzero">
 <path class="svg_stroke" style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentcolor;stroke-opacity:0.5;stroke-miterlimit:10;" d="M 13.5 9 C 13.5 15 4.5 15 4.5 9 C 4.5 3 13.5 3 13.5 9 " transform="matrix(1,0,0,1,0,222)"/>
 </g>
-<use xlink:href="#surface18" transform="matrix(1,0,0,1,18,222)" mask="url(#mask2)"/>
+<use xlink:href="#surface19" transform="matrix(1,0,0,1,18,222)" mask="url(#mask2)"/>
 <path class="svg_fill" style=" stroke:none;fill-rule:nonzero;fill:currentcolor;fill-opacity:0.5;" d="M 8.5 240 L 9.5 240 L 9.5 258 L 8.5 258 Z M 8.5 240 "/>
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(38.039216%,50.588235%,100%);fill-opacity:0.490196;" d="M 18 240 L 130 240 L 130 258 L 18 258 Z M 18 240 "/>
 <g clip-path="url(#clip18)" clip-rule="nonzero">
-<use xlink:href="#image16" transform="matrix(0.818182,0,0,0.818182,18,240)"/>
+<use xlink:href="#image17" transform="matrix(0.818182,0,0,0.818182,18,240)"/>
 </g>
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(66.666667%,0%,100%);fill-opacity:0.490196;" d="M 36 240 L 65 240 L 65 258 L 36 258 Z M 36 240 "/>
 <g class="svg_fill" style="fill:currentcolor;fill-opacity:1;">
